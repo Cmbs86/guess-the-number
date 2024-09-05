@@ -24,8 +24,9 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
    git clone https://github.com/yourusername/guess-the-number.git```
 
 2. ***Navigate to the Project Directory**
+   
 ```cd guess-the-number```
 
-3. **Open `index.html`in your Browser**
+1. **Open `index.html`in your Browser**
    
    Simply open `index.html` file in a web browser to start playing
