@@ -49,8 +49,8 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 
 ![Screenshot 1](images/Shot1.png)
 ![Screenshot 2](images/Shot2.png)
-![Screenshot 2](images/Shot3.png)
-![Screenshot 2](images/Shot4.png)
+![Screenshot 3](images/Shot3.png)
+![Screenshot 4](images/Shot4.png)
 
 ## Known Issues
 
