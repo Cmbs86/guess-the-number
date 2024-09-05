@@ -25,8 +25,40 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 
 2. ***Navigate to the Project Directory**
    
-```cd guess-the-number```
+   ```cd guess-the-number```
 
-1. **Open `index.html`in your Browser**
+3. **Open `index.html`in your Browser**
    
    Simply open `index.html` file in a web browser to start playing
+
+
+## How it Works
+
+- `Game Logic`: The game generates a random number between 1 and 20, and the player attempts to guess it. Feedback is provided based on the guess, and the score is updated accordingly.
+- `No Input Handling`: If the input field is empty when "Check!" is pressed, the background color changes to red to alert the user.
+- `Theme Switching`: Use the button with a moon/sun icon to toggle between dark and light modes. The selected theme is saved in `localStorage` and applied on page load.
+
+## Key Code Files
+
+- `index.html`: The main HTML file includes the structure for the game and the theme toggle button.
+- `style.css`: Handles the styling of the game and includes CSS variables for dark and light themes.
+- `script.js`: Contains the game logic, including event listeners for guessing and resetting the game.
+- `theme.js`: Manages theme switching functionality, including saving the theme preference in `localStorage` and updating the theme based on user interaction.
+
+
+
+
+## Known Issues
+
+- Ensure that JavaScript is enabled in your browser for the game to function correctly.
+- The theme toggle button may not work in some older browsers.
+- 
+
+## License
+
+ - This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+- Inspired by a Udemy class on JavaScript fundamentals.
+- Font used: `Press Start 2P` from Google Fonts.
