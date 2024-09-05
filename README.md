@@ -45,18 +45,21 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 - `script.js`: Contains the game logic, including event listeners for guessing and resetting the game.
 - `theme.js`: Manages theme switching functionality, including saving the theme preference in `localStorage` and updating the theme based on user interaction.
 
+## Screenshots
 
-
+![Screenshot 1](images/Shot1.png)
+![Screenshot 2](images/Shot2.png)
+![Screenshot 2](images/Shot3.png)
+![Screenshot 2](images/Shot4.png)
 
 ## Known Issues
 
 - Ensure that JavaScript is enabled in your browser for the game to function correctly.
 - The theme toggle button may not work in some older browsers.
-- 
 
 ## License
 
- - This project is licensed under the MIT License. See the LICENSE file for details.
+- This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 
