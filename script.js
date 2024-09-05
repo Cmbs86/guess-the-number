@@ -1,7 +1,7 @@
 'use strict';
 
 // get theme on page load
-// localStorage.getItem('theme');
+localStorage.getItem('theme');
 
 // set theme on button press
 // localStorage.setItem('theme', newTheme);
