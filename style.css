@@ -67,8 +67,8 @@ h1 {
 }
 
 .number {
-  background: var(--color-bg);
-  color: var(--color-fg);
+  background: var(--color-fg);
+  color: var(--color-bg);
   font-size: 6rem;
   width: 15rem;
   padding: 3rem 0rem;
