@@ -14,11 +14,13 @@ html {
 [data-theme="light"] {
   --color-bg: #ffffff;
   --color-fg: #000000;
+  --hover-bg:  #3c3b3b;
 }
 
 [data-theme="dark"] {
   --color-bg: #222;
   --color-fg: #ffffff;
+  --hover-bg:  #ccc;
 }
 
 body {
@@ -32,7 +34,7 @@ body {
 header {
   position: relative;
   height: 35vh;
-  border-bottom: 7px solid #eee;
+  border-bottom: 7px solid var(--color-fg);
 }
 
 main {
@@ -107,8 +109,8 @@ h1 {
 
 .btn {
   border: none;
-  background-color: #eee;
-  color: #222;
+  background-color: var(--color-fg);
+  color: var(--color-bg);
   font-size: 2rem;
   font-family: inherit;
   padding: 2rem 3rem;
@@ -116,7 +118,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #ccc;
+  background-color: var(--hover-bg)
 }
 
 .message {
