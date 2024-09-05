@@ -131,16 +131,16 @@ h1 {
 }
 
 .button {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   padding: 0.5rem 1rem;
   transition: all var(--global-transition-time) ease-in-out;
-  border-radius: 2rem;
   cursor: pointer;
   color: var(--color-fg);
   background-color: var(--color-bg);
-  border: 0.25rem solid var(--color-fg);
+  border: none;
   position: absolute;
   top: 2rem;
-  left: 30rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
