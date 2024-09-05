@@ -64,4 +64,4 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 - Font used: `Press Start 2P` from Google Fonts.
 
 
-Feel free to replace placeholders like `https://github.com/yourusername/guess-the-number.git`, `path-to-your-screenshot.png`, and `your-email@example.com` with your actual details. If you have any other specific requests or adjustments, let me know!
+
