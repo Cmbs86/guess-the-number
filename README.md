@@ -27,4 +27,5 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 ```cd guess-the-number```
 
 3. **Open `index.html`in your Browser**
+   
    Simply open `index.html` file in a web browser to start playing
