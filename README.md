@@ -22,19 +22,20 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 ## How to Run
 
 1. **Clone the Repository**
-2. 
-```git clone https://github.com/yourusername/guess-the-number.git```
-1. **Navigate to the Project Directory**
-2. 
+   
+   ```git clone https://github.com/yourusername/guess-the-number.git```
+2. **Navigate to the Project Directory**
+   
    ```cd guess-the-number```
-3. **Instal Dependencies**
-4. 
+   
+3. **Instal Dependencies** 
+   
    ```npm install```
-5. **Start Development Server**
-6. 
+4. **Start Development Server**
+   
    ```npm start```
-7. **Open `index.html`in your Browser**
-8. 
+5. **Open `index.html`in your Browser**
+    
    Simply open `index.html` file in a web browser to start playing.
    
 ## How it Works
