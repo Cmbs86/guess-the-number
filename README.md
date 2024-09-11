@@ -1,6 +1,6 @@
 # Guess The Number - Vanilla JavaScript
 
-A simple vanilla JavaScript game where you guess a randomly generated number between 1 and 20. This project was inspired by a Udemy class and includes several significant enhancements and improvements, including TypeScript integration for better type safety and code maintainability.
+A simple vanilla JavaScript game where you guess a randomly generated number between 1 and 20. This project was inspired by a Javascript basics assignment I had and includes several significant enhancements and improvements, including TypeScript integration for better type safety and code maintainability.
 
 ## Features
 
