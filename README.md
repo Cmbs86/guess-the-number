@@ -6,7 +6,7 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 
 - **Basic Game Mechanics**: Guess the number and see if you’re correct!
 - **Enhanced User Interface**: Added visual feedback and improved styling for a more engaging user experience.
-- **Improved Input Validation**: If the input field is empty, or if the guessed number is below 1 or above 20, the background turns red, and an appropriate message is displayed to guide the user.
+- **Red Background on No Input or Invalid Guess**: If the input field is empty, or if the guessed number is below 1 or above 20, the background turns red, and an appropriate message is displayed to guide the user.
 - **Dark and Light Mode**: Toggle between dark and light themes using a button. Your theme preference is saved and applied on page reload for a personalized experience.
 - **TypeScript Integration**: The game logic has been enhanced with TypeScript for better type safety, code maintainability, and improved developer experience.
 
