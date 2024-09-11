@@ -1,13 +1,14 @@
-# Guess The Number - Vanilla Javascript
+# Guess The Number - Vanilla JavaScript
 
-A simple vanilla JavaScript game where you guess a randomly generated number between 1 and 20. This project was inspired by a Udemy class and includes several enhancements beyond the original tutorial.
+A simple vanilla JavaScript game where you guess a randomly generated number between 1 and 20. This project was inspired by a Udemy class and includes several significant enhancements and improvements, including TypeScript integration for better type safety and code maintainability.
 
 ## Features
 
 - **Basic Game Mechanics**: Guess the number and see if you’re correct!
-- **Enhanced User Interface**: Added visual feedback and improved styling.
-- **Red Background on No Input**: When the input field is empty and the "Check!" button is pressed, the background turns red.
-- **Dark and Light Mode**: Toggle between dark and light themes using a button. Your preference is saved and applied on page reload.
+- **Enhanced User Interface**: Added visual feedback and improved styling for a more engaging user experience.
+- **Improved Input Validation**: If the input field is empty, or if the guessed number is below 1 or above 20, the background turns red, and an appropriate message is displayed to guide the user.
+- **Dark and Light Mode**: Toggle between dark and light themes using a button. Your theme preference is saved and applied on page reload for a personalized experience.
+- **TypeScript Integration**: The game logic has been enhanced with TypeScript for better type safety, code maintainability, and improved developer experience.
 
 ## Project Structure
 
@@ -15,28 +16,28 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 - `style.css`: The CSS file for styling the game, including dark and light themes.
 - `script.js`: The JavaScript file handling game logic and theme switching.
 - `theme.js`: A JavaScript module that manages the dark/light mode functionality.
+- `script.ts`: TypeScript version of the game logic with added type safety and maintainability.
+- `theme.ts`: TypeScript file that manages the dark/light mode functionality with improved type safety. 
 
 ## How to Run
 
 1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/yourusername/guess-the-number.git```
-
-2. ***Navigate to the Project Directory**
-   
+```git clone https://github.com/yourusername/guess-the-number.git```
+2. **Navigate to the Project Directory**
    ```cd guess-the-number```
-
-3. **Open `index.html`in your Browser**
+3. **Instal Dependencies**
+   ```npm install```
+4. **Start Development Server**
+   ```npm start```
+5. **Open `index.html`in your Browser**
+   Simply open `index.html` file in a web browser to start playing.
    
-   Simply open `index.html` file in a web browser to start playing
-
-
 ## How it Works
 
 - `Game Logic`: The game generates a random number between 1 and 20, and the player attempts to guess it. Feedback is provided based on the guess, and the score is updated accordingly.
 - `No Input Handling`: If the input field is empty when "Check!" is pressed, the background color changes to red to alert the user.
 - `Theme Switching`: Use the button with a moon/sun icon to toggle between dark and light modes. The selected theme is saved in `localStorage` and applied on page load.
+- `TypeScript Integration`: TypeScript is used to enhance code quality and maintainability by adding type safety and improving the overall code structure.
 
 ## Key Code Files
 
@@ -44,6 +45,8 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 - `style.css`: Handles the styling of the game and includes CSS variables for dark and light themes.
 - `script.js`: Contains the game logic, including event listeners for guessing and resetting the game.
 - `theme.js`: Manages theme switching functionality, including saving the theme preference in `localStorage` and updating the theme based on user interaction.
+- `script.ts`: TypeScript file with improved game logic and type safety.
+- `theme.ts`: TypeScript file for managing dark and light mode functionality with enhanced type safety. 
 
 ## Screenshots
 
