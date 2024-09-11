@@ -1,11 +1,12 @@
 // Get theme on page load
-const localStorageTheme = localStorage.getItem('theme');
-const systemSettingDark = window.matchMedia('(prefers-color-scheme: dark)');
+const localStorageTheme: string | null = localStorage.getItem('theme');
+const systemSettingDark: MediaQueryList = window.matchMedia('(prefers-color-scheme: dark)');
 
 function calculateSettingAsThemeString({
   localStorageTheme,
   systemSettingDark,
-}) {
+}: {localStorageTheme: string | null;
+  systemSettingDark: MediaQueryList;}): string {
   if (localStorageTheme !== null) {
     return localStorageTheme;
   }
@@ -24,9 +25,9 @@ let currentThemeSetting = calculateSettingAsThemeString({
 });
 
 // Target the button using the data attribute from HTML.
-const button = document.querySelector('[data-theme-toggle]');
-const moonIcon = button.querySelector('.fa-moon');
-const sunIcon = button.querySelector('.fa-sun');
+const button = document.querySelector('[data-theme-toggle]') as HTMLButtonElement | null;
+const moonIcon = button?.querySelector('.fa-moon') as HTMLElement | null;
+const sunIcon = button?.querySelector('.fa-sun') as HTMLElement | null;
 
 // Function to update the icon based on the currente theme
 function updateThemeIcons() {
