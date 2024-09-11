@@ -1,0 +1,27 @@
+{
+  "name": "guess-the-number",
+  "version": "1.0.0",
+  "description": "Typescript guess the number game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cmbs86/guess-the-number.git"
+  },
+  "keywords": [
+    "typescript",
+    "guess-the-number"
+  ],
+  "author": "Carlos-Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cmbs86/guess-the-number/issues"
+  },
+  "homepage": "https://github.com/Cmbs86/guess-the-number#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
