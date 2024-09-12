@@ -20,22 +20,18 @@ A former vanilla JavaScript game where you guess a randomly generated number bet
 ## How to Run
 
 1. **Clone the Repository**
-   
    ```git clone https://github.com/yourusername/guess-the-number.git```
 2. **Navigate to the Project Directory**
-   
    ```cd guess-the-number```
-   
-3. **Instal Dependencies** 
-   
+3. **Instal Dependencies**
    ```npm install```
-4. **Start Development Server**
-   
+4. **Compile TypeScript Files** (optional, if not handled automatically)
+   If the TypeScript files are not compiled automatically, you can manually compile them by running:
+   `tsc`
+5. **Start Development Server**
    ```npm start```
-5. **Open `index.html`in your Browser**
-    
-   Simply open `index.html` file in a web browser to start playing.
-   
+   This will launch the project using lite-server and automatically open the game in your default web browser. If it doesn't open, navigate to `http://localhost:3000.`
+
 ## How it Works
 
 - `Game Logic`: The game generates a random number between 1 and 20, and the player attempts to guess it. Feedback is provided based on the guess, and the score is updated accordingly.
