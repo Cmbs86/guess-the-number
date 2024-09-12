@@ -1,6 +1,6 @@
 # Guess The Number - JavaScript and TypeScript
 
-A simple vanilla JavaScript game where you guess a randomly generated number between 1 and 20. This project was inspired by a Javascript basics assignment I had and includes several significant enhancements and improvements, including TypeScript integration for better type safety and code maintainability.
+A former vanilla JavaScript game where you guess a randomly generated number between 1 and 20, now enhanced with significant improvements, including a red screen for invalid guesses, light/dark mode, and, notably, TypeScript integration for improved type safety and maintainability
 
 ## Features
 
@@ -14,10 +14,8 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 
 - `index.html`: The HTML structure of the game.
 - `style.css`: The CSS file for styling the game, including dark and light themes.
-- `script.js`: The JavaScript file handling game logic and theme switching.
-- `theme.js`: A JavaScript module that manages the dark/light mode functionality.
-- `script.ts`: TypeScript version of the game logic with added type safety and maintainability.
-- `theme.ts`: TypeScript file that manages the dark/light mode functionality with improved type safety. 
+- `script.ts`: TypeScript file with the game logic with added type safety and maintainability.
+- `theme.ts`: TypeScript file that manages the dark/light mode functionality with improved type safety.
 
 ## How to Run
 
@@ -49,10 +47,9 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 
 - `index.html`: The main HTML file includes the structure for the game and the theme toggle button.
 - `style.css`: Handles the styling of the game and includes CSS variables for dark and light themes.
-- `script.js`: Contains the game logic, including event listeners for guessing and resetting the game.
-- `theme.js`: Manages theme switching functionality, including saving the theme preference in `localStorage` and updating the theme based on user interaction.
 - `script.ts`: TypeScript file with improved game logic and type safety.
-- `theme.ts`: TypeScript file for managing dark and light mode functionality with enhanced type safety. 
+- `theme.ts`: TypeScript file for managing dark and light mode functionality with enhanced type safety.
+
 
 ## Screenshots
 
@@ -74,6 +71,3 @@ A simple vanilla JavaScript game where you guess a randomly generated number bet
 
 - Inspired by a Udemy class on JavaScript fundamentals.
 - Font used: `Press Start 2P` from Google Fonts.
-
-
-
