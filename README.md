@@ -25,10 +25,11 @@ A former vanilla JavaScript game where you guess a randomly generated number bet
    ```cd guess-the-number```
 3. **Instal Dependencies**
    ```npm install```
-4. **Compile TypeScript Files** (optional, if not handled automatically)
+4. **Compile TypeScript Files** 
+5. (optional, if not handled automatically)
    If the TypeScript files are not compiled automatically, you can manually compile them by running:
    `tsc`
-5. **Start Development Server**
+6. **Start Development Server**
    ```npm start```
    This will launch the project using lite-server and automatically open the game in your default web browser. If it doesn't open, navigate to `http://localhost:3000.`
 
@@ -58,6 +59,7 @@ A former vanilla JavaScript game where you guess a randomly generated number bet
 
 - Ensure that JavaScript is enabled in your browser for the game to function correctly.
 - The theme toggle button may not work in some older browsers.
+- You can expand this section with any TypeScript or environment-specific quirks (e.g., running into issues if tsc is not installed globally).
 
 ## License
 
