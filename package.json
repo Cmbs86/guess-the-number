@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
-    "build": "tsc"
+    "build": "tsc && cp index.html dist/ && cp style.css dist/"
   },
   "repository": {
     "type": "git",
