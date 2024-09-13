@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Cmbs86/guess-the-number#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "typescript": "^5.6.2"
   }
 }
