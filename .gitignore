@@ -1,2 +1,5 @@
 node_modules
+# Ignore all JS files
 *.js
+# Except those in the dist directory
+!dist/*.js

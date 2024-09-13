@@ -1,5 +1,5 @@
 'use strict';
-import './theme';
+import './theme.js';
 
 // DEFINE THE SECRET NUMBER - It must be defined only one time.
 let secretNumber: number = Math.trunc(Math.random() * 20) + 1;
