@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server",
+    "start": "live-server --ignore=node_modules",
     "build": "tsc && cp index.html dist/ && cp style.css dist/"
   },
   "repository": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Cmbs86/guess-the-number#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1",
+    "live-server": "^1.2.2",
     "typescript": "^5.6.2"
   }
 }
